@@ -17,3 +17,19 @@ function createCourse():{name : string, price : number} {
     }
 }
 
+type User = {
+    name : string,
+    email : string,
+    isActive : boolean
+}
+
+function createUser2(user : User) : User {
+    return user
+}
+
+createUser2({
+    name : "shaun",
+    email : "Yt9tV@example.com",
+    isActive : true
+})
+
